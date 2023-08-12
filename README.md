@@ -9,7 +9,7 @@ Pantalla principal:
 Incluye la vista general de los álbunes (datos de álbum, lista de canciones y portada), todas las opciones para gestionar los datos y un cuadro de búsqueda (con 
 posibilidad de buscar por autor, álbum o año).
 
-[[![MusicData1](https://github.com/FranJDG/MusicData/assets/79667066/5df6b438-6643-4d0d-8b4f-3b32f5b990f3)](https://raw.githubusercontent.com/FranJDG/TresEnRaya/master/Capturas/Imagen1.png)]
+[[[![MusicData1](https://github.com/FranJDG/MusicData/assets/79667066/5df6b438-6643-4d0d-8b4f-3b32f5b990f3)](https://raw.githubusercontent.com/FranJDG/MusicData/master/Capturas/MusicData1.png)]](https://raw.githubusercontent.com/FranJDG/MusicData/master/Capturas/MusicData1.png)
 
 Agregar nuevo álbum:
 
