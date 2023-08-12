@@ -5,16 +5,18 @@ Se trata de un software que nos permite crear una base de datos para discos musi
 y gestionada mediante LINQ.
 
 Pantalla principal:
+
 Incluye la vista general de los álbunes (datos de álbum, lista de canciones y portada), todas las opciones para gestionar los datos y un cuadro de búsqueda (con 
 posibilidad de buscar por autor, álbum o año).
 
-![MusicData1](https://github.com/FranJDG/MusicData/assets/79667066/21252484-45b8-44f0-8d51-a5a30f9cafff)
+![MusicData1](https://github.com/FranJDG/MusicData/assets/79667066/5df6b438-6643-4d0d-8b4f-3b32f5b990f3)
 
 Agregar nuevo álbum:
 
 ![MusicData2](https://github.com/FranJDG/MusicData/assets/79667066/ff0ce548-b3d0-491f-ba9e-6a23790a1b73)
 
 Editar álbum/agregar canciones:
+
 Es posible editar todos los datos del álbum y agregar/eliminar canciones.
 
 ![MusicData3](https://github.com/FranJDG/MusicData/assets/79667066/d4889ff0-10b5-4333-9f10-7e30b50131e1)
