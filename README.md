@@ -9,19 +9,19 @@ Pantalla principal:
 Incluye la vista general de los álbunes (datos de álbum, lista de canciones y portada), todas las opciones para gestionar los datos y un cuadro de búsqueda (con 
 posibilidad de buscar por autor, álbum o año).
 
-https://raw.githubusercontent.com/FranJDG/MusicData/Capturas/MusicData1.png
+https://github.com/FranJDG/MusicData/blob/master/Capturas/MusicData1.png
 
 Agregar nuevo álbum:
 
-https://raw.githubusercontent.com/FranJDG/MusicData/Capturas/MusicData2.png
+https://github.com/FranJDG/MusicData/blob/master/Capturas/MusicData2.png
 
 Editar álbum/agregar canciones:
 
 Es posible editar todos los datos del álbum y agregar/eliminar canciones.
 
-https://raw.githubusercontent.com/FranJDG/MusicData/Capturas/MusicData3.png
+https://github.com/FranJDG/MusicData/blob/master/Capturas/MusicData3.png
 
 Eliminar un álbum o un autor completo (Todos los álbunes):
 
-https://raw.githubusercontent.com/FranJDG/MusicData/Capturas/MusicData4.png
+https://github.com/FranJDG/MusicData/blob/master/Capturas/MusicData4.png
 
