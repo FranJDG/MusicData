@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EntornoPruebas" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-FRAN;Initial Catalog=EntornoPruebas;Integrated Security=True" SettingsObjectName="DataMusic_SQLServer.Properties.Settings" SettingsPropertyName="ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Autor" Member="Autor">
+    <Type Name="Autor">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Autor_Album" Member="Album" ThisKey="Id" OtherKey="AutorId" Type="Album" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Album" Member="Album">
+    <Type Name="Album">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Titulo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Año" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AutorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Portada" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Album_Cancion" Member="Cancion" ThisKey="Id" OtherKey="AlbumId" Type="Cancion" />
+      <Association Name="Autor_Album" Member="Autor" ThisKey="AutorId" OtherKey="Id" Type="Autor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cancion" Member="Cancion">
+    <Type Name="Cancion">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Titulo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Numero" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AlbumId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Album_Cancion" Member="Album" ThisKey="AlbumId" OtherKey="Id" Type="Album" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
