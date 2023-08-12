@@ -27,7 +27,7 @@ namespace DataMusic_SQLServer
     /// </summary>
     public partial class MainWindow : Window
     {
-        DataClasses1DataContext dataContext;
+        DataClasses1DataContext dataContext;               
 
         public MainWindow()
         {
@@ -46,7 +46,7 @@ namespace DataMusic_SQLServer
         {
             string conexion = ConfigurationManager.ConnectionStrings["DataMusic_SQLServer.Properties.Settings.ConnectionString"].ConnectionString;
 
-            dataContext = new DataClasses1DataContext(conexion);
+            dataContext = new DataClasses1DataContext(conexion);            
         }
 
         private void MostrarAlbunes()
