@@ -9,7 +9,7 @@ Pantalla principal:
 Incluye la vista general de los álbunes (datos de álbum, lista de canciones y portada), todas las opciones para gestionar los datos y un cuadro de búsqueda (con 
 posibilidad de buscar por autor, álbum o año).
 
-https://github.com/FranJDG/MusicData/assets/Capturas/MusicData1.png
+https://github.com/FranJDG/MusicData/Capturas/MusicData1.png
 
 Agregar nuevo álbum:
 
