@@ -1,4 +1,4 @@
-# MusicData
+# Music Data
 Base de datos para discos musicales
 
 Se trata de un software que nos permite crear una base de datos para discos musicales, está construido con WPF, utilizando como base de datos SQL Server
